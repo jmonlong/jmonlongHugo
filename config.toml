@@ -15,20 +15,20 @@ googleAnalytics = "UA-113785126-2"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "/data$"]
 
 [blackfriday]
   hrefTargetBlank = true
 
 [params]
   name = "Jean Monlong"
-  role = "PhD Candidate"
-  organization = "McGill University"
-  organization_url = ""
+  role = "Postdoctoral researcher"
+  organization = "UCSC"
+  organization_url = "https://cgl.genomics.ucsc.edu/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jean.monlong@gmail.com"
-  address = "Room 4200, 740 Docteur Penfield Av., H3A 1A5, Montreal, Canada"
+  address = "Room 517A, Engineering 2, 1156 High St, Santa Cruz, CA 95064"
 #  office_hours = "Monday 10:00 to 13:00 or email for appointment"
 #  phone = "888 888 88 88"
   skype = "jean.monlong"
