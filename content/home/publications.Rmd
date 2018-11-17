@@ -30,7 +30,7 @@ library(RefManageR)
 library(magrittr)
 library(dplyr)
 
-bib <- ReadBib('../../data/JM-publication.bib')
+bib <- ReadBib('../../misc/JM-publication.bib')
 
 convertBold <- function(cc){
   sapply(cc, function(ccc){

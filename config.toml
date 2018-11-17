@@ -15,7 +15,7 @@ googleAnalytics = "UA-113785126-2"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "misc"]
 
 [blackfriday]
   hrefTargetBlank = true
