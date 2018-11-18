@@ -30,7 +30,7 @@ library(RefManageR)
 library(magrittr)
 library(dplyr)
 
-bib <- ReadBib('../../data/JM-publication.bib')
+bib <- ReadBib('../../misc/JM-publication.bib')
 
 convertBold <- function(cc){
   sapply(cc, function(ccc){
@@ -89,3 +89,5 @@ cat('</ul>')
 ## cat('</ul>')
 
 ```
+
+And here is the [PDF of my PhD thesis](https://github.com/jmonlong/phdthesis/releases/download/final/Monlong_Jean_HumanGenetics_thesis.pdf) on "*Population-Based Approaches to Characterize Copy Number Variation from Whole-Genome Sequencing in Healthy Individuals and Disease Cohorts*" ([LaTeX source](https://github.com/jmonlong/phdthesis)).
