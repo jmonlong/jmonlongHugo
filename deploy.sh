@@ -2,16 +2,17 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Pull latest version of website/public folder
+cd public
+git pull -f
+cd ..
+
 # Build the project.
 Rscript -e "blogdown::build_site()"
 
-# Go To Public folder
+# Add changes to public folder
 cd public
-# Add changes to git.
-git pull
 git add .
-
-# Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
