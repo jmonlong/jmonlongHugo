@@ -205,7 +205,7 @@
 
 	\ifx\@@webpage\empty\else
 		\ifthenelse{\equal{\@@language}{francais}}{
-			\CV@AppendItem{Webpage: \href{\@@webpage}{\@@webpage}}{\CV@delayed}
+			\CV@AppendItem{Page en ligne~: \href{\@@webpage}{\@@webpage}}{\CV@delayed}
 		}{}
 		\ifthenelse{\equal{\@@language}{english}}{
 			\CV@AppendItem{Webpage: \href{\@@webpage}{\@@webpage}}{\CV@delayed}
