@@ -9,3 +9,5 @@ serve:
 
 deploy:
 	sh deploy.sh $$MSG
+
+
