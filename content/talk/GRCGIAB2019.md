@@ -1,5 +1,5 @@
 +++
-date = "2019-09-15T00:00:00"
+date = "2019-10-15T00:00:00"
 title = "Genome variation graphs with the vg toolkit"
 abstract = ""
 abstract_short = ""
@@ -21,3 +21,8 @@ image = "headers/ashg19.jpg"
 
 +++
 
+{{< tweet 1184133683231580162 >}}
+
+{{< tweet 1184134221184536577 >}}
+
+{{< tweet 1184134656230383618 >}}
