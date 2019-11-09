@@ -15,9 +15,16 @@ url_slides = ""
 url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "headers/ichg16.png"
+[header]
+image = "headers/churchillcollege.jpg"
 # caption = "My caption :smile:"
 
 +++
 
+{{< tweet 514360307461148672 >}}
+{{< tweet 514360691105738752 >}}
+{{< tweet 514361161253683201 >}}
+{{< tweet 514361710552293376 >}}
+{{< tweet 514361887157682176 >}}
+{{< tweet 514361912659030016 >}}
+{{< tweet 514363106441854977 >}}
