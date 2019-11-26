@@ -6,6 +6,7 @@
 \usepackage{amssymb}
 \usepackage{bibentry}
 
+
 %%
 %% Adapted from site.perso.mika.free.fr/cvEnLigne/cv/monCVLaTex/en/cv-en.tex
 %%
@@ -279,11 +280,14 @@
 %% \newpage
 
 
-
-%% \begin{section}{Publications}
-\begin{section}{Publications}
 \bibliographystyle{plain}
-\nobibliography{JM-publication.bib}
+\nobibliography{JM-publication}
+
+\begin{section}{Publications}
+  \begin{entry}
+    \Date{2019}
+    \Activity{\bibentry{Jessa2019}}
+  \end{entry}
   \begin{entry}
     \Date{2019}
     \Activity{\bibentry{Grajcarek2019}}
@@ -373,7 +377,7 @@
     \Activity{\bibentry{GTEx2013}}
   \end{entry}
   \begin{entry}[\detailedOnly]
-    \Date{2011}
+  \Date{2011}
     \Activity{\bibentry{Seigneurin2011}}
   \end{entry}
 \end{section}
@@ -528,6 +532,7 @@
     \Activity{Organizer of a four-days {\it R and Bioinformatics} workshop for System Biology graduate students}
   \end{entry}
 \end{section}
+
 
 \end{document}
 

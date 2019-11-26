@@ -1,3 +1,5 @@
+MSG?="New changes"
+
 pull:
 	git pull
 	git submodule update --init --recursive
@@ -8,6 +10,6 @@ serve:
 	Rscript -e "blogdown::serve_site()"
 
 deploy:
-	sh deploy.sh $$MSG
+	sh deploy.sh $(MSG)
 
 
