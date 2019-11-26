@@ -10,6 +10,6 @@ serve:
 	Rscript -e "blogdown::serve_site()"
 
 deploy:
-	sh deploy.sh $(MSG)
+	sh deploy.sh "$(MSG)"
 
 
