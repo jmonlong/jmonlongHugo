@@ -81,6 +81,10 @@ htmlCit <- function(df){
   cat('<div class="col-md-2">')
   cat(paste0('<span class="__dimensions_badge_embed__" data-doi="', df$doi, '" data-hide-zero-citations="true" data-style="small_rectangle"></span>'))
   cat(paste0('<div data-badge-type="2" data-doi="',df$doi,'" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed" data-badge-popover="left" data-link-target="_blank"></div>'))
+  if(df$preprintdoi != ''){
+  cat(paste0('<span class="__dimensions_badge_embed__" data-doi="', df$preprintdoi, '" data-hide-zero-citations="true" data-style="small_rectangle"></span>'))
+  cat(paste0('<div data-badge-type="2" data-doi="',df$preprintdoi,'" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed" data-badge-popover="left" data-link-target="_blank"></div>'))
+  }
   cat('</div>')
   ## End article "row"
   cat('</div>')
