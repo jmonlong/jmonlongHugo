@@ -153,7 +153,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "misc"]
   [[params.socialpub]]
     icon = "biorxiv"
     icon_pack = "ai"
-    link = "https://www.biorxiv.org/search/jean%20monlong"
+    link = "https://www.biorxiv.org/search/author1%3AJean%2BMonlong%2B"
 
   [[params.socialpub]]
     icon = "google-scholar"

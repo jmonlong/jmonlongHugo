@@ -4,6 +4,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Pull latest version of website/public folder
 cd public
+git checkout master
 git pull -f
 cd ..
 
